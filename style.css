@@ -58,13 +58,13 @@ img { max-width: 100%; display: block; }
   background: linear-gradient(135deg, var(--navy), var(--red));
   position: relative;
   box-shadow: var(--shadow);
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 1.6rem;
 }
-.logo-mark::before,
-.logo-mark::after {
-  content: ""; position: absolute; background: rgba(255,255,255,0.9); border-radius: 2px;
+.uk-flag {
+  background: #ffffff;
+  border: 1px solid var(--line);
 }
-.logo-mark::before { width: 24px; height: 6px; left: 10px; top: 19px; }
-.logo-mark::after { width: 6px; height: 24px; left: 19px; top: 10px; }
 .logo-text strong { display: block; font-size: 1.15rem; }
 .logo-text span { display: block; font-size: 0.9rem; color: var(--muted); font-weight: 600; }
 .search-wrap { display: flex; align-items: center; gap: 12px; }
@@ -145,6 +145,12 @@ img { max-width: 100%; display: block; }
 .icon-card {
   display: flex; flex-direction: column; gap: 12px;
 }
+
+.connected-cards { gap: 0; }
+.connected-cards .card { border-radius: 0; box-shadow: none; }
+.connected-cards .card + .card { border-left: 0; }
+.connected-cards .card:first-child { border-radius: var(--radius) 0 0 var(--radius); }
+.connected-cards .card:last-child { border-radius: 0 var(--radius) var(--radius) 0; }
 .icon-badge {
   width: 42px; height: 42px; border-radius: 12px; background: var(--soft); color: var(--navy);
   display: inline-flex; align-items: center; justify-content: center; font-weight: 900;
@@ -249,4 +255,6 @@ textarea { min-height: 130px; resize: vertical; }
   .hero-card { padding: 22px; }
   .section { padding: 34px 0; }
   .grid-4 { grid-template-columns: 1fr; }
+  .connected-cards .card, .connected-cards .card:first-child, .connected-cards .card:last-child { border-radius: var(--radius); }
+  .connected-cards .card + .card { border-left: 1px solid var(--line); }
 }

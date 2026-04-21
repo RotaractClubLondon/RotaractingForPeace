@@ -1162,6 +1162,5 @@
     "cape verde": "Cabo Verde",
     "bosnia": "Bosnia and Herzegovina",
     "dr congo": "Democratic Republic of the Congo"
-  },
-  "notes": "Tool logic map v1\n\nThe updated tool combines:\n- sector profile\n- country profile\n- years of experience\n- type of experience\n- English confidence for work\n- sponsorship need\n- regulated role question\n- current location\n- main goal\n\nHidden dimensions:\n- skill translation\n- experience strength\n- communication readiness\n- recognition need\n- entry readiness\n- sponsorship fit\n- London fit\n- career continuity\n- barrier level\n\nThe tool turns those hidden dimensions into six visible result areas:\n- Your likely route\n- What may help most\n- Main challenges\n- London view\n- Best next steps\n- Country note if country was not matched\n"
+  }
 }

@@ -147,14 +147,30 @@ function addPills(target, arr){
   target.innerHTML = '';
   arr.forEach(t => { const p = document.createElement('p'); p.className='pill'; p.textContent=t; target.appendChild(p); });
 }
-function summaryPills(ctx){
-  return [
-    "Experience strength: " + ctx.exp,
-    "Skill translation: " + ctx.skillTranslation,
-    "Sponsorship fit: " + ctx.sponsorFit,
-    "Recognition need: " + ctx.recognition,
-    "London fit: " + ctx.londonFit
-  ];
+function summarySentences(ctx){
+  const lines = [];
+  if (ctx.exp === "Strong") lines.push("Your experience suggests a strong base for this route.");
+  else if (ctx.exp === "Moderate") lines.push("You have a useful base, but some parts of the route may still need strengthening.");
+  else lines.push("Your background suggests you may still be in an early entry stage for this field.");
+
+  if (ctx.skillTranslation === "Easier") lines.push("Your qualification background is likely to be easier for UK employers to understand.");
+  else if (ctx.skillTranslation === "Mixed") lines.push("Some parts of your background may translate well, while others may need clearer explanation.");
+  else lines.push("Your background may need more explanation in UK terms before employers understand it fully.");
+
+  if (ctx.sponsorFit === "Not a main barrier") lines.push("Sponsorship does not look like the main issue in your route.");
+  else if (ctx.sponsorFit === "Good") lines.push("Sponsorship looks realistic enough to include in your search strategy.");
+  else if (ctx.sponsorFit === "Possible") lines.push("Sponsorship may be possible, but it will need careful employer targeting.");
+  else lines.push("Sponsorship is likely to be one of the harder parts of this route.");
+
+  if (ctx.recognition === "Low") lines.push("Formal recognition does not appear to be the main barrier here.");
+  else if (ctx.recognition === "Medium") lines.push("Recognition or formal requirements may matter for some roles in this area.");
+  else lines.push("Formal recognition, registration or licensing may shape this route strongly.");
+
+  if (ctx.londonFit === "Strong") lines.push("London looks like a sensible market to target for this field.");
+  else if (ctx.londonFit === "Mixed") lines.push("London may still work, but it comes with clear trade-offs.");
+  else lines.push("London may not be the easiest place to enter this field first.");
+
+  return lines.slice(0,5);
 }
 function translationNarrative(level, matchedCountry){
   if (level==="Easier") return "Your selected country" + (matchedCountry ? " (" + matchedCountry + ")" : "") + " is likely to be easier for UK employers to read quickly. That does not remove every barrier, but your qualification and experience may need less explanation than some other backgrounds.";
@@ -197,23 +213,38 @@ function buildNarrative(ctx){
   if (ctx.sector.london==="L") london += " This field may also be worth exploring outside London.";
 
   const next = [];
-  if (ctx.skillTranslation==="Harder") next.push("Use clearer UK-friendly job titles and explain your qualification level simply.");
-  if (ctx.recognition==="High") next.push("Check whether formal recognition, registration or licensing is needed before applying widely.");
-  if (ctx.sponsorFit==="Difficult") next.push("Focus on employers already set up to sponsor and roles where sponsorship is more realistic.");
-  if (ctx.years==="Academic only") next.push("Build practical evidence through placements, projects, volunteering or stepping-stone roles.");
-  if (ctx.comm==="Needs support") next.push("Strengthen work-focused English, especially for applications and interviews.");
-  if (ctx.sector.network==="H") next.push("Spend time on networking, not only on applications.");
-  if (ctx.sector.portfolio==="H") next.push("Prepare examples of your work that show what you can do in practice.");
-  if (ctx.career==="Adjacent path likely") next.push("Target related roles, not only exact title matches.");
-  if (ctx.londonFit==="Difficult") next.push("Consider whether another UK city could be a better first step.");
-  if (ctx.career==="Direct path likely") next.push("Focus on role matching, clear applications and employer targeting.");
+  if (ctx.skillTranslation === "Harder") next.push("Use clearer UK-friendly job titles and explain your qualification level simply.");
+  if (ctx.skillTranslation === "Mixed") next.push("Add short explanations that help UK employers understand your qualification and past roles.");
+  if (ctx.recognition === "High") next.push("Check whether formal recognition, registration or licensing is needed before applying widely.");
+  if (ctx.recognition === "Medium") next.push("Check early whether some roles in this area expect registration or specific UK requirements.");
+  if (ctx.sponsorFit === "Difficult") next.push("Focus on employers already set up to sponsor and roles where sponsorship is more realistic.");
+  if (ctx.sponsorFit === "Possible") next.push("Be selective and prioritise employers more likely to understand international applicants.");
+  if (ctx.years === "Academic only") next.push("Build practical evidence through placements, projects, volunteering or stepping-stone roles.");
+  if (ctx.comm === "Needs support") next.push("Strengthen work-focused English, especially for applications and interviews.");
+  if (ctx.comm === "Mixed") next.push("Practice explaining your experience clearly and simply in interview-style English.");
+  if (ctx.sector.network === "H") next.push("Spend time on networking, not only on applications.");
+  if (ctx.sector.portfolio === "H") next.push("Prepare examples of your work that show what you can do in practice.");
+  if (ctx.career === "Adjacent path likely") next.push("Target related roles, not only exact title matches.");
+  if (ctx.londonFit === "Difficult") next.push("Consider whether another UK city could be a better first step.");
+  if (ctx.career === "Direct path likely") next.push("Focus on role matching, clear applications and employer targeting.");
+  if (ctx.sector.competition === "H") next.push("Expect competition and prioritise quality of applications over volume.");
+  if (ctx.sector.practical === "H" && ctx.exp !== "Strong") next.push("Look for ways to show applied experience, not only knowledge.");
+  if (ctx.location === "In London") next.push("Use your location to build local visibility through events, interviews and networking.");
+  if (ctx.location === "Outside the UK") next.push("Prepare for extra explanation around your background and right-to-work situation.");
+
+  const uniqueNext = [...new Set(next)];
+  while (uniqueNext.length < 3) {
+    if (!uniqueNext.includes("Focus on clear applications and realistic role targeting.")) uniqueNext.push("Focus on clear applications and realistic role targeting.");
+    else if (!uniqueNext.includes("Use simple UK-facing language when describing your experience.")) uniqueNext.push("Use simple UK-facing language when describing your experience.");
+    else uniqueNext.push("Choose roles that match your current profile, not only your final goal.");
+  }
 
   return {
     route: route,
     help: help.slice(0,3).length ? help.slice(0,3) : ["Your route looks clearer once you begin targeting the right roles."],
     challenges: challenges.slice(0,4).length ? challenges.slice(0,4) : ["No major red flags stand out from the answers you gave."],
     london: london,
-    next: [...new Set(next)].slice(0,4).length ? [...new Set(next)].slice(0,4) : ["Focus on clear applications and realistic role targeting."]
+    next: uniqueNext.slice(0,3)
   };
 }
 
@@ -248,7 +279,7 @@ document.getElementById('runTool').addEventListener('click', () => {
   document.getElementById('resultsStart').style.display = 'none';
   document.getElementById('results').style.display = 'block';
   document.getElementById('routeText').textContent = result.route;
-  addPills(document.getElementById('summaryText'), summaryPills(ctx));
+  addPills(document.getElementById('summaryText'), summarySentences(ctx));
   addPills(document.getElementById('helpText'), result.help);
   addPills(document.getElementById('challengeText'), result.challenges);
   document.getElementById('londonText').textContent = result.london;

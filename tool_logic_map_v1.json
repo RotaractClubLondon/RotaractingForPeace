@@ -1,0 +1,1167 @@
+{
+  "sectors": [
+    "Architecture and Built Environment",
+    "Arts, Culture and Heritage",
+    "Business Support and Operations",
+    "Construction and Infrastructure",
+    "Creative and Media",
+    "Digital and Technology",
+    "Education",
+    "Engineering",
+    "Finance and Professional Services",
+    "HR and Recruitment",
+    "Health and Care",
+    "Hospitality and Tourism",
+    "Legal and Compliance",
+    "Logistics and Supply Chain",
+    "Marketing and Communications",
+    "Public Policy and Government",
+    "Research and Academia",
+    "Retail and Customer Service",
+    "Science and Life Sciences",
+    "Social Impact, Charity and NGOs"
+  ],
+  "sector_matrix": {
+    "Architecture and Built Environment": {
+      "demand": "M",
+      "competition": "M",
+      "sponsorship": "M",
+      "regulation": "M",
+      "london": "H",
+      "entry_flexibility": "M",
+      "network": "M",
+      "portfolio": "H",
+      "communication": "M",
+      "practical": "H",
+      "title_mismatch": "M",
+      "recognition": "M",
+      "speed": "Slow",
+      "oversubscription": "M",
+      "transferability": "M"
+    },
+    "Arts, Culture and Heritage": {
+      "demand": "L",
+      "competition": "H",
+      "sponsorship": "L",
+      "regulation": "L",
+      "london": "H",
+      "entry_flexibility": "L",
+      "network": "H",
+      "portfolio": "H",
+      "communication": "H",
+      "practical": "H",
+      "title_mismatch": "M",
+      "recognition": "L",
+      "speed": "Slow",
+      "oversubscription": "H",
+      "transferability": "M"
+    },
+    "Business Support and Operations": {
+      "demand": "M",
+      "competition": "M",
+      "sponsorship": "L",
+      "regulation": "L",
+      "london": "H",
+      "entry_flexibility": "H",
+      "network": "M",
+      "portfolio": "L",
+      "communication": "M",
+      "practical": "M",
+      "title_mismatch": "M",
+      "recognition": "L",
+      "speed": "Fast",
+      "oversubscription": "M",
+      "transferability": "H"
+    },
+    "Construction and Infrastructure": {
+      "demand": "H",
+      "competition": "M",
+      "sponsorship": "M",
+      "regulation": "M",
+      "london": "H",
+      "entry_flexibility": "M",
+      "network": "M",
+      "portfolio": "M",
+      "communication": "M",
+      "practical": "H",
+      "title_mismatch": "M",
+      "recognition": "M",
+      "speed": "Medium",
+      "oversubscription": "L",
+      "transferability": "M"
+    },
+    "Creative and Media": {
+      "demand": "M",
+      "competition": "H",
+      "sponsorship": "L",
+      "regulation": "L",
+      "london": "H",
+      "entry_flexibility": "M",
+      "network": "H",
+      "portfolio": "H",
+      "communication": "H",
+      "practical": "H",
+      "title_mismatch": "M",
+      "recognition": "L",
+      "speed": "Slow",
+      "oversubscription": "H",
+      "transferability": "M"
+    },
+    "Digital and Technology": {
+      "demand": "H",
+      "competition": "M",
+      "sponsorship": "H",
+      "regulation": "L",
+      "london": "H",
+      "entry_flexibility": "M",
+      "network": "M",
+      "portfolio": "M",
+      "communication": "M",
+      "practical": "H",
+      "title_mismatch": "M",
+      "recognition": "L",
+      "speed": "Medium",
+      "oversubscription": "M",
+      "transferability": "H"
+    },
+    "Education": {
+      "demand": "M",
+      "competition": "M",
+      "sponsorship": "M",
+      "regulation": "H",
+      "london": "H",
+      "entry_flexibility": "M",
+      "network": "M",
+      "portfolio": "L",
+      "communication": "H",
+      "practical": "H",
+      "title_mismatch": "M",
+      "recognition": "H",
+      "speed": "Slow",
+      "oversubscription": "M",
+      "transferability": "M"
+    },
+    "Engineering": {
+      "demand": "H",
+      "competition": "M",
+      "sponsorship": "M",
+      "regulation": "M",
+      "london": "M",
+      "entry_flexibility": "M",
+      "network": "M",
+      "portfolio": "M",
+      "communication": "M",
+      "practical": "H",
+      "title_mismatch": "M",
+      "recognition": "M",
+      "speed": "Medium",
+      "oversubscription": "L",
+      "transferability": "H"
+    },
+    "Finance and Professional Services": {
+      "demand": "H",
+      "competition": "H",
+      "sponsorship": "M",
+      "regulation": "M",
+      "london": "H",
+      "entry_flexibility": "M",
+      "network": "M",
+      "portfolio": "L",
+      "communication": "H",
+      "practical": "H",
+      "title_mismatch": "M",
+      "recognition": "M",
+      "speed": "Medium",
+      "oversubscription": "M",
+      "transferability": "M"
+    },
+    "Health and Care": {
+      "demand": "H",
+      "competition": "M",
+      "sponsorship": "H",
+      "regulation": "H",
+      "london": "H",
+      "entry_flexibility": "M",
+      "network": "L",
+      "portfolio": "L",
+      "communication": "H",
+      "practical": "H",
+      "title_mismatch": "L",
+      "recognition": "H",
+      "speed": "Slow",
+      "oversubscription": "L",
+      "transferability": "M"
+    },
+    "Hospitality and Tourism": {
+      "demand": "M",
+      "competition": "M",
+      "sponsorship": "L",
+      "regulation": "L",
+      "london": "H",
+      "entry_flexibility": "H",
+      "network": "L",
+      "portfolio": "L",
+      "communication": "H",
+      "practical": "M",
+      "title_mismatch": "L",
+      "recognition": "L",
+      "speed": "Fast",
+      "oversubscription": "L",
+      "transferability": "H"
+    },
+    "HR and Recruitment": {
+      "demand": "M",
+      "competition": "M",
+      "sponsorship": "L",
+      "regulation": "L",
+      "london": "H",
+      "entry_flexibility": "M",
+      "network": "M",
+      "portfolio": "L",
+      "communication": "H",
+      "practical": "H",
+      "title_mismatch": "M",
+      "recognition": "M",
+      "speed": "Medium",
+      "oversubscription": "M",
+      "transferability": "M"
+    },
+    "Legal and Compliance": {
+      "demand": "M",
+      "competition": "H",
+      "sponsorship": "L",
+      "regulation": "H",
+      "london": "H",
+      "entry_flexibility": "M",
+      "network": "M",
+      "portfolio": "L",
+      "communication": "H",
+      "practical": "H",
+      "title_mismatch": "H",
+      "recognition": "H",
+      "speed": "Slow",
+      "oversubscription": "H",
+      "transferability": "L"
+    },
+    "Logistics and Supply Chain": {
+      "demand": "H",
+      "competition": "M",
+      "sponsorship": "M",
+      "regulation": "L",
+      "london": "M",
+      "entry_flexibility": "H",
+      "network": "L",
+      "portfolio": "L",
+      "communication": "M",
+      "practical": "M",
+      "title_mismatch": "M",
+      "recognition": "L",
+      "speed": "Fast",
+      "oversubscription": "L",
+      "transferability": "H"
+    },
+    "Marketing and Communications": {
+      "demand": "M",
+      "competition": "H",
+      "sponsorship": "L",
+      "regulation": "L",
+      "london": "H",
+      "entry_flexibility": "M",
+      "network": "H",
+      "portfolio": "M",
+      "communication": "H",
+      "practical": "H",
+      "title_mismatch": "M",
+      "recognition": "L",
+      "speed": "Slow",
+      "oversubscription": "H",
+      "transferability": "M"
+    },
+    "Public Policy and Government": {
+      "demand": "L",
+      "competition": "H",
+      "sponsorship": "L",
+      "regulation": "M",
+      "london": "H",
+      "entry_flexibility": "L",
+      "network": "H",
+      "portfolio": "L",
+      "communication": "H",
+      "practical": "H",
+      "title_mismatch": "M",
+      "recognition": "M",
+      "speed": "Slow",
+      "oversubscription": "H",
+      "transferability": "M"
+    },
+    "Research and Academia": {
+      "demand": "M",
+      "competition": "H",
+      "sponsorship": "M",
+      "regulation": "L",
+      "london": "H",
+      "entry_flexibility": "M",
+      "network": "H",
+      "portfolio": "H",
+      "communication": "H",
+      "practical": "H",
+      "title_mismatch": "M",
+      "recognition": "M",
+      "speed": "Slow",
+      "oversubscription": "H",
+      "transferability": "M"
+    },
+    "Retail and Customer Service": {
+      "demand": "M",
+      "competition": "M",
+      "sponsorship": "L",
+      "regulation": "L",
+      "london": "H",
+      "entry_flexibility": "H",
+      "network": "L",
+      "portfolio": "L",
+      "communication": "H",
+      "practical": "M",
+      "title_mismatch": "L",
+      "recognition": "L",
+      "speed": "Fast",
+      "oversubscription": "L",
+      "transferability": "H"
+    },
+    "Science and Life Sciences": {
+      "demand": "M",
+      "competition": "M",
+      "sponsorship": "M",
+      "regulation": "M",
+      "london": "H",
+      "entry_flexibility": "M",
+      "network": "M",
+      "portfolio": "M",
+      "communication": "M",
+      "practical": "H",
+      "title_mismatch": "M",
+      "recognition": "M",
+      "speed": "Medium",
+      "oversubscription": "M",
+      "transferability": "M"
+    },
+    "Social Impact, Charity and NGOs": {
+      "demand": "M",
+      "competition": "H",
+      "sponsorship": "L",
+      "regulation": "L",
+      "london": "H",
+      "entry_flexibility": "M",
+      "network": "H",
+      "portfolio": "M",
+      "communication": "H",
+      "practical": "H",
+      "title_mismatch": "M",
+      "recognition": "L",
+      "speed": "Slow",
+      "oversubscription": "H",
+      "transferability": "M"
+    }
+  },
+  "countries": [
+    "Afghanistan",
+    "Albania",
+    "Algeria",
+    "Andorra",
+    "Angola",
+    "Antigua and Barbuda",
+    "Argentina",
+    "Armenia",
+    "Australia",
+    "Austria",
+    "Azerbaijan",
+    "Bahamas",
+    "Bahrain",
+    "Bangladesh",
+    "Barbados",
+    "Belarus",
+    "Belgium",
+    "Belize",
+    "Benin",
+    "Bhutan",
+    "Bolivia",
+    "Bosnia and Herzegovina",
+    "Botswana",
+    "Brazil",
+    "Brunei",
+    "Bulgaria",
+    "Burkina Faso",
+    "Burundi",
+    "Cabo Verde",
+    "Cambodia",
+    "Cameroon",
+    "Canada",
+    "Central African Republic",
+    "Chad",
+    "Chile",
+    "China",
+    "Colombia",
+    "Comoros",
+    "Congo",
+    "Costa Rica",
+    "Croatia",
+    "Cuba",
+    "Cyprus",
+    "Czechia",
+    "Democratic Republic of the Congo",
+    "Denmark",
+    "Djibouti",
+    "Dominica",
+    "Dominican Republic",
+    "Ecuador",
+    "Egypt",
+    "El Salvador",
+    "Equatorial Guinea",
+    "Eritrea",
+    "Estonia",
+    "Eswatini",
+    "Ethiopia",
+    "Fiji",
+    "Finland",
+    "France",
+    "Gabon",
+    "Gambia",
+    "Georgia",
+    "Germany",
+    "Ghana",
+    "Greece",
+    "Grenada",
+    "Guatemala",
+    "Guinea",
+    "Guinea-Bissau",
+    "Guyana",
+    "Haiti",
+    "Honduras",
+    "Hungary",
+    "Iceland",
+    "India",
+    "Indonesia",
+    "Iran",
+    "Iraq",
+    "Ireland",
+    "Israel",
+    "Italy",
+    "Jamaica",
+    "Japan",
+    "Jordan",
+    "Kazakhstan",
+    "Kenya",
+    "Kiribati",
+    "Kuwait",
+    "Kyrgyzstan",
+    "Laos",
+    "Latvia",
+    "Lebanon",
+    "Lesotho",
+    "Liberia",
+    "Libya",
+    "Liechtenstein",
+    "Lithuania",
+    "Luxembourg",
+    "Madagascar",
+    "Malawi",
+    "Malaysia",
+    "Maldives",
+    "Mali",
+    "Malta",
+    "Marshall Islands",
+    "Mauritania",
+    "Mauritius",
+    "Mexico",
+    "Micronesia",
+    "Moldova",
+    "Monaco",
+    "Mongolia",
+    "Montenegro",
+    "Morocco",
+    "Mozambique",
+    "Myanmar",
+    "Namibia",
+    "Nauru",
+    "Nepal",
+    "Netherlands",
+    "New Zealand",
+    "Nicaragua",
+    "Niger",
+    "Nigeria",
+    "North Korea",
+    "North Macedonia",
+    "Norway",
+    "Oman",
+    "Pakistan",
+    "Palau",
+    "Panama",
+    "Papua New Guinea",
+    "Paraguay",
+    "Peru",
+    "Philippines",
+    "Poland",
+    "Portugal",
+    "Qatar",
+    "Romania",
+    "Russia",
+    "Rwanda",
+    "Saint Kitts and Nevis",
+    "Saint Lucia",
+    "Saint Vincent and the Grenadines",
+    "Samoa",
+    "San Marino",
+    "Sao Tome and Principe",
+    "Saudi Arabia",
+    "Senegal",
+    "Serbia",
+    "Seychelles",
+    "Sierra Leone",
+    "Singapore",
+    "Slovakia",
+    "Slovenia",
+    "Solomon Islands",
+    "Somalia",
+    "South Africa",
+    "South Korea",
+    "South Sudan",
+    "Spain",
+    "Sri Lanka",
+    "Sudan",
+    "Suriname",
+    "Sweden",
+    "Switzerland",
+    "Syria",
+    "Taiwan",
+    "Tajikistan",
+    "Tanzania",
+    "Thailand",
+    "Timor-Leste",
+    "Togo",
+    "Tonga",
+    "Trinidad and Tobago",
+    "Tunisia",
+    "Turkey",
+    "Turkmenistan",
+    "Tuvalu",
+    "Uganda",
+    "Ukraine",
+    "United Arab Emirates",
+    "United Kingdom",
+    "United States",
+    "Uruguay",
+    "Uzbekistan",
+    "Vanuatu",
+    "Vatican City",
+    "Venezuela",
+    "Vietnam",
+    "Yemen",
+    "Zambia",
+    "Zimbabwe"
+  ],
+  "country_profiles": {
+    "Afghanistan": {
+      "skill_translation": "Harder"
+    },
+    "Albania": {
+      "skill_translation": "Harder"
+    },
+    "Algeria": {
+      "skill_translation": "Harder"
+    },
+    "Andorra": {
+      "skill_translation": "Harder"
+    },
+    "Angola": {
+      "skill_translation": "Harder"
+    },
+    "Antigua and Barbuda": {
+      "skill_translation": "Harder"
+    },
+    "Argentina": {
+      "skill_translation": "Harder"
+    },
+    "Armenia": {
+      "skill_translation": "Harder"
+    },
+    "Australia": {
+      "skill_translation": "Easier"
+    },
+    "Austria": {
+      "skill_translation": "Mixed"
+    },
+    "Azerbaijan": {
+      "skill_translation": "Harder"
+    },
+    "Bahamas": {
+      "skill_translation": "Easier"
+    },
+    "Bahrain": {
+      "skill_translation": "Harder"
+    },
+    "Bangladesh": {
+      "skill_translation": "Harder"
+    },
+    "Barbados": {
+      "skill_translation": "Easier"
+    },
+    "Belarus": {
+      "skill_translation": "Harder"
+    },
+    "Belgium": {
+      "skill_translation": "Mixed"
+    },
+    "Belize": {
+      "skill_translation": "Easier"
+    },
+    "Benin": {
+      "skill_translation": "Harder"
+    },
+    "Bhutan": {
+      "skill_translation": "Harder"
+    },
+    "Bolivia": {
+      "skill_translation": "Harder"
+    },
+    "Bosnia and Herzegovina": {
+      "skill_translation": "Harder"
+    },
+    "Botswana": {
+      "skill_translation": "Mixed"
+    },
+    "Brazil": {
+      "skill_translation": "Mixed"
+    },
+    "Brunei": {
+      "skill_translation": "Harder"
+    },
+    "Bulgaria": {
+      "skill_translation": "Harder"
+    },
+    "Burkina Faso": {
+      "skill_translation": "Harder"
+    },
+    "Burundi": {
+      "skill_translation": "Harder"
+    },
+    "Cabo Verde": {
+      "skill_translation": "Harder"
+    },
+    "Cambodia": {
+      "skill_translation": "Harder"
+    },
+    "Cameroon": {
+      "skill_translation": "Harder"
+    },
+    "Canada": {
+      "skill_translation": "Easier"
+    },
+    "Central African Republic": {
+      "skill_translation": "Harder"
+    },
+    "Chad": {
+      "skill_translation": "Harder"
+    },
+    "Chile": {
+      "skill_translation": "Harder"
+    },
+    "China": {
+      "skill_translation": "Harder"
+    },
+    "Colombia": {
+      "skill_translation": "Harder"
+    },
+    "Comoros": {
+      "skill_translation": "Harder"
+    },
+    "Congo": {
+      "skill_translation": "Harder"
+    },
+    "Costa Rica": {
+      "skill_translation": "Harder"
+    },
+    "Croatia": {
+      "skill_translation": "Mixed"
+    },
+    "Cuba": {
+      "skill_translation": "Harder"
+    },
+    "Cyprus": {
+      "skill_translation": "Mixed"
+    },
+    "Czechia": {
+      "skill_translation": "Mixed"
+    },
+    "Democratic Republic of the Congo": {
+      "skill_translation": "Harder"
+    },
+    "Denmark": {
+      "skill_translation": "Mixed"
+    },
+    "Djibouti": {
+      "skill_translation": "Harder"
+    },
+    "Dominica": {
+      "skill_translation": "Harder"
+    },
+    "Dominican Republic": {
+      "skill_translation": "Harder"
+    },
+    "Ecuador": {
+      "skill_translation": "Harder"
+    },
+    "Egypt": {
+      "skill_translation": "Harder"
+    },
+    "El Salvador": {
+      "skill_translation": "Harder"
+    },
+    "Equatorial Guinea": {
+      "skill_translation": "Harder"
+    },
+    "Eritrea": {
+      "skill_translation": "Harder"
+    },
+    "Estonia": {
+      "skill_translation": "Mixed"
+    },
+    "Eswatini": {
+      "skill_translation": "Harder"
+    },
+    "Ethiopia": {
+      "skill_translation": "Harder"
+    },
+    "Fiji": {
+      "skill_translation": "Harder"
+    },
+    "Finland": {
+      "skill_translation": "Mixed"
+    },
+    "France": {
+      "skill_translation": "Mixed"
+    },
+    "Gabon": {
+      "skill_translation": "Harder"
+    },
+    "Gambia": {
+      "skill_translation": "Harder"
+    },
+    "Georgia": {
+      "skill_translation": "Harder"
+    },
+    "Germany": {
+      "skill_translation": "Mixed"
+    },
+    "Ghana": {
+      "skill_translation": "Easier"
+    },
+    "Greece": {
+      "skill_translation": "Mixed"
+    },
+    "Grenada": {
+      "skill_translation": "Harder"
+    },
+    "Guatemala": {
+      "skill_translation": "Harder"
+    },
+    "Guinea": {
+      "skill_translation": "Harder"
+    },
+    "Guinea-Bissau": {
+      "skill_translation": "Harder"
+    },
+    "Guyana": {
+      "skill_translation": "Easier"
+    },
+    "Haiti": {
+      "skill_translation": "Harder"
+    },
+    "Honduras": {
+      "skill_translation": "Harder"
+    },
+    "Hungary": {
+      "skill_translation": "Mixed"
+    },
+    "Iceland": {
+      "skill_translation": "Mixed"
+    },
+    "India": {
+      "skill_translation": "Easier"
+    },
+    "Indonesia": {
+      "skill_translation": "Harder"
+    },
+    "Iran": {
+      "skill_translation": "Harder"
+    },
+    "Iraq": {
+      "skill_translation": "Harder"
+    },
+    "Ireland": {
+      "skill_translation": "Easier"
+    },
+    "Israel": {
+      "skill_translation": "Mixed"
+    },
+    "Italy": {
+      "skill_translation": "Mixed"
+    },
+    "Jamaica": {
+      "skill_translation": "Easier"
+    },
+    "Japan": {
+      "skill_translation": "Mixed"
+    },
+    "Jordan": {
+      "skill_translation": "Harder"
+    },
+    "Kazakhstan": {
+      "skill_translation": "Harder"
+    },
+    "Kenya": {
+      "skill_translation": "Easier"
+    },
+    "Kiribati": {
+      "skill_translation": "Harder"
+    },
+    "Kuwait": {
+      "skill_translation": "Harder"
+    },
+    "Kyrgyzstan": {
+      "skill_translation": "Harder"
+    },
+    "Laos": {
+      "skill_translation": "Harder"
+    },
+    "Latvia": {
+      "skill_translation": "Mixed"
+    },
+    "Lebanon": {
+      "skill_translation": "Harder"
+    },
+    "Lesotho": {
+      "skill_translation": "Harder"
+    },
+    "Liberia": {
+      "skill_translation": "Harder"
+    },
+    "Libya": {
+      "skill_translation": "Harder"
+    },
+    "Liechtenstein": {
+      "skill_translation": "Harder"
+    },
+    "Lithuania": {
+      "skill_translation": "Mixed"
+    },
+    "Luxembourg": {
+      "skill_translation": "Mixed"
+    },
+    "Madagascar": {
+      "skill_translation": "Harder"
+    },
+    "Malawi": {
+      "skill_translation": "Harder"
+    },
+    "Malaysia": {
+      "skill_translation": "Mixed"
+    },
+    "Maldives": {
+      "skill_translation": "Harder"
+    },
+    "Mali": {
+      "skill_translation": "Harder"
+    },
+    "Malta": {
+      "skill_translation": "Easier"
+    },
+    "Marshall Islands": {
+      "skill_translation": "Harder"
+    },
+    "Mauritania": {
+      "skill_translation": "Harder"
+    },
+    "Mauritius": {
+      "skill_translation": "Mixed"
+    },
+    "Mexico": {
+      "skill_translation": "Harder"
+    },
+    "Micronesia": {
+      "skill_translation": "Harder"
+    },
+    "Moldova": {
+      "skill_translation": "Harder"
+    },
+    "Monaco": {
+      "skill_translation": "Harder"
+    },
+    "Mongolia": {
+      "skill_translation": "Harder"
+    },
+    "Montenegro": {
+      "skill_translation": "Harder"
+    },
+    "Morocco": {
+      "skill_translation": "Harder"
+    },
+    "Mozambique": {
+      "skill_translation": "Harder"
+    },
+    "Myanmar": {
+      "skill_translation": "Harder"
+    },
+    "Namibia": {
+      "skill_translation": "Harder"
+    },
+    "Nauru": {
+      "skill_translation": "Harder"
+    },
+    "Nepal": {
+      "skill_translation": "Harder"
+    },
+    "Netherlands": {
+      "skill_translation": "Mixed"
+    },
+    "New Zealand": {
+      "skill_translation": "Easier"
+    },
+    "Nicaragua": {
+      "skill_translation": "Harder"
+    },
+    "Niger": {
+      "skill_translation": "Harder"
+    },
+    "Nigeria": {
+      "skill_translation": "Easier"
+    },
+    "North Korea": {
+      "skill_translation": "Harder"
+    },
+    "North Macedonia": {
+      "skill_translation": "Harder"
+    },
+    "Norway": {
+      "skill_translation": "Mixed"
+    },
+    "Oman": {
+      "skill_translation": "Harder"
+    },
+    "Pakistan": {
+      "skill_translation": "Harder"
+    },
+    "Palau": {
+      "skill_translation": "Harder"
+    },
+    "Panama": {
+      "skill_translation": "Harder"
+    },
+    "Papua New Guinea": {
+      "skill_translation": "Harder"
+    },
+    "Paraguay": {
+      "skill_translation": "Harder"
+    },
+    "Peru": {
+      "skill_translation": "Harder"
+    },
+    "Philippines": {
+      "skill_translation": "Mixed"
+    },
+    "Poland": {
+      "skill_translation": "Mixed"
+    },
+    "Portugal": {
+      "skill_translation": "Mixed"
+    },
+    "Qatar": {
+      "skill_translation": "Harder"
+    },
+    "Romania": {
+      "skill_translation": "Mixed"
+    },
+    "Russia": {
+      "skill_translation": "Harder"
+    },
+    "Rwanda": {
+      "skill_translation": "Harder"
+    },
+    "Saint Kitts and Nevis": {
+      "skill_translation": "Harder"
+    },
+    "Saint Lucia": {
+      "skill_translation": "Harder"
+    },
+    "Saint Vincent and the Grenadines": {
+      "skill_translation": "Harder"
+    },
+    "Samoa": {
+      "skill_translation": "Harder"
+    },
+    "San Marino": {
+      "skill_translation": "Harder"
+    },
+    "Sao Tome and Principe": {
+      "skill_translation": "Harder"
+    },
+    "Saudi Arabia": {
+      "skill_translation": "Harder"
+    },
+    "Senegal": {
+      "skill_translation": "Harder"
+    },
+    "Serbia": {
+      "skill_translation": "Harder"
+    },
+    "Seychelles": {
+      "skill_translation": "Harder"
+    },
+    "Sierra Leone": {
+      "skill_translation": "Harder"
+    },
+    "Singapore": {
+      "skill_translation": "Easier"
+    },
+    "Slovakia": {
+      "skill_translation": "Mixed"
+    },
+    "Slovenia": {
+      "skill_translation": "Mixed"
+    },
+    "Solomon Islands": {
+      "skill_translation": "Harder"
+    },
+    "Somalia": {
+      "skill_translation": "Harder"
+    },
+    "South Africa": {
+      "skill_translation": "Easier"
+    },
+    "South Korea": {
+      "skill_translation": "Mixed"
+    },
+    "South Sudan": {
+      "skill_translation": "Harder"
+    },
+    "Spain": {
+      "skill_translation": "Mixed"
+    },
+    "Sri Lanka": {
+      "skill_translation": "Harder"
+    },
+    "Sudan": {
+      "skill_translation": "Harder"
+    },
+    "Suriname": {
+      "skill_translation": "Harder"
+    },
+    "Sweden": {
+      "skill_translation": "Mixed"
+    },
+    "Switzerland": {
+      "skill_translation": "Mixed"
+    },
+    "Syria": {
+      "skill_translation": "Harder"
+    },
+    "Taiwan": {
+      "skill_translation": "Mixed"
+    },
+    "Tajikistan": {
+      "skill_translation": "Harder"
+    },
+    "Tanzania": {
+      "skill_translation": "Harder"
+    },
+    "Thailand": {
+      "skill_translation": "Mixed"
+    },
+    "Timor-Leste": {
+      "skill_translation": "Harder"
+    },
+    "Togo": {
+      "skill_translation": "Harder"
+    },
+    "Tonga": {
+      "skill_translation": "Harder"
+    },
+    "Trinidad and Tobago": {
+      "skill_translation": "Easier"
+    },
+    "Tunisia": {
+      "skill_translation": "Harder"
+    },
+    "Turkey": {
+      "skill_translation": "Harder"
+    },
+    "Turkmenistan": {
+      "skill_translation": "Harder"
+    },
+    "Tuvalu": {
+      "skill_translation": "Harder"
+    },
+    "Uganda": {
+      "skill_translation": "Harder"
+    },
+    "Ukraine": {
+      "skill_translation": "Mixed"
+    },
+    "United Arab Emirates": {
+      "skill_translation": "Mixed"
+    },
+    "United Kingdom": {
+      "skill_translation": "Easier"
+    },
+    "United States": {
+      "skill_translation": "Easier"
+    },
+    "Uruguay": {
+      "skill_translation": "Harder"
+    },
+    "Uzbekistan": {
+      "skill_translation": "Harder"
+    },
+    "Vanuatu": {
+      "skill_translation": "Harder"
+    },
+    "Vatican City": {
+      "skill_translation": "Harder"
+    },
+    "Venezuela": {
+      "skill_translation": "Harder"
+    },
+    "Vietnam": {
+      "skill_translation": "Harder"
+    },
+    "Yemen": {
+      "skill_translation": "Harder"
+    },
+    "Zambia": {
+      "skill_translation": "Harder"
+    },
+    "Zimbabwe": {
+      "skill_translation": "Harder"
+    }
+  },
+  "aliases": {
+    "uk": "United Kingdom",
+    "u.k.": "United Kingdom",
+    "britain": "United Kingdom",
+    "great britain": "United Kingdom",
+    "england": "United Kingdom",
+    "usa": "United States",
+    "u.s.a.": "United States",
+    "us": "United States",
+    "u.s.": "United States",
+    "america": "United States",
+    "uae": "United Arab Emirates",
+    "south korea": "South Korea",
+    "north korea": "North Korea",
+    "czech republic": "Czechia",
+    "timor leste": "Timor-Leste",
+    "cape verde": "Cabo Verde",
+    "bosnia": "Bosnia and Herzegovina",
+    "dr congo": "Democratic Republic of the Congo"
+  },
+  "notes": "Tool logic map v1\n\nThe updated tool combines:\n- sector profile\n- country profile\n- years of experience\n- type of experience\n- English confidence for work\n- sponsorship need\n- regulated role question\n- current location\n- main goal\n\nHidden dimensions:\n- skill translation\n- experience strength\n- communication readiness\n- recognition need\n- entry readiness\n- sponsorship fit\n- London fit\n- career continuity\n- barrier level\n\nThe tool turns those hidden dimensions into six visible result areas:\n- Your likely route\n- What may help most\n- Main challenges\n- London view\n- Best next steps\n- Country note if country was not matched\n"
+}

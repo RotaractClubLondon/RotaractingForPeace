@@ -179,10 +179,10 @@ function translationNarrative(level, matchedCountry){
 }
 function buildNarrative(ctx){
   let route = "";
-  if (ctx.career==="Direct path likely" && ctx.entry==="Ready") route="Your background suggests a direct route into this area may be realistic. The main focus may be on applying strategically rather than rebuilding from the start.";
-  else if (ctx.career==="Direct path likely") route="A direct route may still be possible, but some preparation could improve your chances. Clearer UK-facing language and stronger evidence may help.";
-  else if (ctx.career==="Adjacent path likely") route="A nearby or stepping-stone role may be the best first move. This can help you stay close to the field while building UK-relevant evidence.";
-  else route="A bridging step is likely before entering this field directly. This does not mean the goal is out of reach. It suggests that one or two smaller steps may make entry more realistic.";
+  if (ctx.career==="Direct path likely" && ctx.entry==="Ready") route="Your background suggests a direct route into this area may be realistic. The main focus may be on applying strategically rather than rebuilding from the start. Many people in your position take a route similar to this.";
+  else if (ctx.career==="Direct path likely") route="A direct route may still be possible, but some preparation could improve your chances. Clearer UK-facing language and stronger evidence may help. Many people in your position take a route similar to this.";
+  else if (ctx.career==="Adjacent path likely") route="A nearby or stepping-stone role may be the best first move. This can help you stay close to the field while building UK-relevant evidence. Many people in your position take a route similar to this.";
+  else route="A bridging step is likely before entering this field directly. This does not mean the goal is out of reach. It suggests that one or two smaller steps may make entry more realistic. Many people in your position take a route similar to this.";
 
   const help = [];
   if (ctx.skillTranslation==="Harder") help.push("Your skills may need more explanation in UK terms.");
